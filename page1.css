@@ -1,0 +1,220 @@
+.main{
+    background-color: white;
+}
+.nav{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,#5A0808,#C01111);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 40;
+}
+.logo{
+    /* background-color: white; */
+    height: 40px;
+    width: 120px;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.icons{
+    /* background-color: white; */
+    height: 40px;
+    width: 200px;
+    position: fixed;
+    top: 30px;
+    left: 1300px;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+    float: left;
+}
+.icon1:hover{
+    transform: scale(1.1);
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+.icon2:hover{
+    transform: scale(1.1);
+}
+.icon3{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: -30px;
+}
+.icon3:hover{
+    transform: scale(1.1);
+}
+.product{
+    /* background-color: #5A0808; */
+    height: 500px;
+    width: 1300px;
+    margin: auto;
+    margin-top: 180px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.prd1{
+    /* background-color: rgb(25, 95, 201); */
+    height: 500px;
+    width: 325px;
+    /* float: left; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /* margin: 5px; */
+}
+.inside1{
+    background-color: #D9D9D9;
+    height: 475px;
+    width: 300px;
+    /* margin-top: 12.25px; */
+    /* margin-left: 12.25px; */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 5px;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+ }
+.img1{
+    padding: 20px;
+}
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+/* .img1:hover{
+    transform: scale(1.1);
+} */
+.inside1:hover{
+    transform: scale(1.025);
+}
+img{
+    border-radius: 15px;
+}
+.cnt1{
+    padding: 13px;
+}
+.prd2{
+    /* background-color: rgb(20, 204, 161); */
+    height: 500px;
+    width: 325px;
+    /* margin-left: 325px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /* margin: 5px; */
+}
+.inside2{
+    background-color: #D9D9D9;
+    height: 475px;
+    width: 300px;
+    /* margin-top: 12.25px;
+    margin-left: 12.25px; */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+}
+.img2{
+    padding: 20px;
+}
+/* .img2:hover{
+    transform: scale(1.1);
+} */
+.inside2:hover{
+    transform: scale(1.025);
+}
+.cnt2{
+    padding: 5px;
+}
+.prd3{
+    /* background-color: rgb(165, 13, 211); */
+    height: 500px;
+    width: 325px;
+    /* margin-left: 650px; */
+    /* margin-top: -500px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /* margin: 5px; */
+}
+.inside3{
+    background-color: #D9D9D9;
+    height: 475px;
+    width: 300px;
+    /* margin-top: 12.25px; */
+    /* margin-left: 12.25px;
+    margin-bottom: -25px; */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+}
+.inside3:hover{
+    transform: scale(1.025);
+}
+.img3{
+    padding: 20px;
+}
+.cnt3{
+    padding: 15px;
+}
+.prd4{
+    /* background-color: rgb(51, 13, 219); */
+    height: 500px;
+    width: 325px;
+    /* float: right; */
+    /* margin-top: -500px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /* margin: 5px; */
+}
+.inside4{
+    background-color: #D9D9D9;
+    height: 475px;
+    width: 300px;
+    /* margin-top: 12.25px;
+    margin-left: 12.25px; */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+}
+.inside4:hover{
+    transform: scale(1.025);
+}
+.img4{
+    padding: 20px;
+}
+.cnt4{
+    padding: 2px;
+}
+p{
+    font-size: 13px;
+}

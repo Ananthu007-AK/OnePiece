@@ -1,0 +1,180 @@
+.main{
+    background-color: white;
+}
+.nav{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,#5A0808,#C01111);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 40;
+}
+.logo{
+    /* background-color: white; */
+    height: 40px;
+    width: 120px;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.icons{
+    /* background-color: white; */
+    height: 40px;
+    width: 200px;
+    position: fixed;
+    top: 30px;
+    left: 1300px;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+    float: left;
+}
+.icon1:hover{
+    transform: scale(1.1);
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+.icon2:hover{
+    transform: scale(1.1);
+}
+.icon3{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: -30px;
+}
+.icon3:hover{
+    transform: scale(1.1);
+}
+.luffy{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 1450px;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.luffy1{
+    background-color: #D9D9D9;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.pic1{
+    padding: 10px;
+}
+.pic1:hover{
+    transform: scale(1.045);
+}
+.pic2{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.nxt1{
+    /* background-color: beige; */
+    height: 125px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nxt1:hover{
+    transform: scale(1.045);
+}
+.nxt2{
+    /* background-color: beige; */
+    height: 125px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nxt2:hover{
+    transform: scale(1.045);
+}
+.nxt3{
+    /* background-color: beige; */
+    height: 125px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nxt3:hover{
+    transform: scale(1.045);
+}
+.nxt4{
+    /* background-color: beige; */
+    height: 125px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nxt4:hover{
+    transform: scale(1.045);
+}
+img{
+    border-radius: 15px;
+}
+.luffy2{
+    /* background-color: rgb(180, 116, 19); */
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descr{
+    /* background-color: rgb(27, 212, 14); */
+    height: 500px;
+    width: 760px;
+}
+.addto{
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+    background-color: #F0C417;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.addto:hover{
+    transform: scale(1.045);
+}
+.buy{
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.buy:hover{
+    transform: scale(1.045);
+}

@@ -1,0 +1,75 @@
+.main{
+    background-color: white;
+}
+.nav{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,#5A0808,#C01111);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 40;
+}
+.logo{
+    /* background-color: white; */
+    height: 40px;
+    width: 120px;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.icons{
+    /* background-color: white; */
+    height: 40px;
+    width: 200px;
+    position: fixed;
+    top: 30px;
+    left: 1300px;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+    float: left;
+}
+.icon1:hover{
+    transform: scale(1.1);
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+.icon2:hover{
+    transform: scale(1.1);
+}
+.icon3{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: -30px;
+}
+.icon3:hover{
+    transform: scale(1.1);
+}
+.picture{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+    float: left;
+}
+.content{
+    background-color: aquamarine;
+    height: 500px;
+    width: 800px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 200px;
+}
